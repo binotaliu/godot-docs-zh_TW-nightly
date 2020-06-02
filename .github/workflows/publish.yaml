@@ -15,15 +15,15 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+    - name: Update submodule
+      uses: textbook/git-checkout-submodule-action@2.1.1
     - name: Cache
       uses: actions/cache@v2
       with:
         path: |
-          docs
-          sphinx/**/*
+          docs/_build
+          sphinx
         key: v1
-    - name: Update submodule
-      uses: textbook/git-checkout-submodule-action@2.1.1
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
