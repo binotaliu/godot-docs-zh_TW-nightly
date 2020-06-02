@@ -21,6 +21,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install Sphinx
         pip install -r docs/requirements.txt
+    - name: Download PO from Weblate
+      run: |
+        curl https://hosted.weblate.org/download/godot-engine/godot-docs/zh_Hant/ -o ./weblate/docs/zh_TW.po
     - name: Update
       run: |
         ./update.sh -st
