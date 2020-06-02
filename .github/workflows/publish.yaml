@@ -45,6 +45,7 @@ jobs:
       run: |
         cd docs
         make -e SPHINXOPTS="-D language='zh_TW'" html
+        touch _build/html/.nojekyll
     - name: Publish
       uses: crazy-max/ghaction-github-pages@v2
       with:
