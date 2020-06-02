@@ -1,3 +1,8 @@
+# About This Fork
+
+This is a repository forked from godot/godoc-docs-l10n. I use this repository to 
+build translations from weblate nightly and publish to github pages.
+
 # Localization of Godot Engine documentation
 
 This repository contains the localization templates and catalogs for the
