@@ -40,7 +40,7 @@ jobs:
     - name: Build
       run: |
         cd docs
-        make -e "-D language='zh_TW'" html
+        make -e SPHINXOPTS="-D language='zh_TW'" html
     - name: Publish
       uses: crazy-max/ghaction-github-pages@v2
       with:
