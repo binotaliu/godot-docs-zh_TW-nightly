@@ -18,6 +18,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
+        apt-get install gettext
         python -m pip install --upgrade pip
         pip install Sphinx
         pip install -r docs/requirements.txt
