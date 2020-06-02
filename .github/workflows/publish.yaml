@@ -49,7 +49,7 @@ jobs:
     - name: Publish
       uses: crazy-max/ghaction-github-pages@v2
       with:
-        target_branche: gh-pages
+        target_branch: gh-pages
         build_dir: docs/_build/html
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
