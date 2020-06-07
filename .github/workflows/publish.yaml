@@ -36,6 +36,8 @@ jobs:
         pip install -r docs/requirements.txt
     - name: Download PO from Weblate
       run: |
+        mkdir -p weblate/docs
+        mkdir -p weblate/classes
         curl https://hosted.weblate.org/download/godot-engine/godot-docs/zh_Hant/ -o ./weblate/docs/zh_TW.po
     - name: Update
       run: |
