@@ -8,6 +8,11 @@
 前往 https://binotaliu.github.io/godot-docs-zh_TW-nightly/ 看目前的版本。
 Go ahead to https://binotaliu.github.io/godot-docs-zh_TW-nightly/ to see the latest build.
 
+官方穩定版本: https://docs.godotengine.org/zh_TW/stable/
+
+Official Build: https://docs.godotengine.org/zh_TW/stable/
+
+
 
 ## 這個是怎麼運作的？ How Does This Work?
 
